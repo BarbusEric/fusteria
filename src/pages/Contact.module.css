@@ -1,0 +1,65 @@
+.contact {
+  margin-top: 2.5rem;
+}
+
+.contact h3 {
+  color: var(--color-black);
+}
+
+.service__list {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.service__list a {
+  font-size: 1.25rem;
+  color: var(--color-black);
+  font-weight: bold;
+}
+
+.service__list_icon {
+  margin-right: 0.7rem;
+}
+
+.service__list a {
+  text-decoration: none;
+}
+
+.service__list a:hover {
+  color: var(--color-bg);
+}
+
+@media screen and (max-width: 1324px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .map {
+    width: auto;
+  }
+
+  .service__list {
+    margin: 2.5rem;
+  }
+
+  .service__list a {
+    font-size: 0.7rem;
+    color: var(--color-black);
+    font-weight: bold;
+  }
+
+  .service__list_icon {
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+}

@@ -1,0 +1,22 @@
+.swiper__miscellaneous {
+  width: 1000px;
+  height: 825px;
+}
+
+.testimonial__miscellaneous {
+  padding: 1rem;
+  margin-top: -1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .swiper {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container.testimonials__container {
+    width: var(--container-width-sm);
+  }
+}

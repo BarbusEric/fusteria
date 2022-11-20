@@ -1,0 +1,14 @@
+footer {
+  background-color: var(--color-bg);
+}
+
+footer p {
+  color: var(--color-light);
+  pointer-events: none;
+}
+
+@media screen and (max-width: 600px) {
+  footer p {
+    font-size: 0.7rem;
+  }
+}

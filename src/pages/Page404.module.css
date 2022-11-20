@@ -1,0 +1,8 @@
+.page404 {
+  height: 100vh;
+  background: rgba(157, 2, 8, 0.8);
+}
+
+.error404 {
+  font-size: 5rem;
+}

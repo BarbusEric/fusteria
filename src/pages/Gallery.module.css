@@ -1,0 +1,17 @@
+.gallery {
+  margin-top: 2.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.title {
+  margin-top: 2rem;
+}
+h1,
+h3 {
+  color: rgba(0, 8, 20, 0.8);
+  pointer-events: none;
+}
+
+span {
+  color: rgba(157, 2, 8, 0.8);
+}

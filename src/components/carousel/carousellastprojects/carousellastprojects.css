@@ -1,0 +1,21 @@
+.swiper__lastprojects {
+  width: 600px;
+  height: 785px;
+}
+
+.testimonial__lastprojects {
+  padding: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .swiper__lastprojects {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container.testimonials__container {
+    width: var(--container-width-sm);
+  }
+}
