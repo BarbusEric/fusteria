@@ -15,6 +15,7 @@
 .menuIcon {
   display: none;
   cursor: pointer;
+  color: var(--color-light);
 }
 
 .dropdownMenu {

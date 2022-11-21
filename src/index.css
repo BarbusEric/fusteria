@@ -38,8 +38,6 @@ body {
   background-size: 7px 7px;
 }
 
-/* ======== GENERAL STYLES =========*/
-
 .container {
   width: var(--container-width-lg);
   margin: 0 auto !important;
